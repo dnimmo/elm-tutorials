@@ -3,7 +3,7 @@ import Html.App as App
 import Html.Events exposing (onClick)
 
 main =
-  App.beginnerProgram { model = model, view = view, update = update}
+  App.beginnerProgram { model = model, view = view, update = update }
 
 -- Model
 
