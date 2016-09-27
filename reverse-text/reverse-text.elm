@@ -13,6 +13,10 @@ type alias Model =
   { content : String
   }
 
+model : Model
+model =
+  { content = "" }
+
 -- Update
 
 type Msg
