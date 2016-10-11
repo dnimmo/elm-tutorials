@@ -9,5 +9,5 @@ import String
 
 main =
   (~=) "Try" "Test"
-  |> toString
-  |> Html.text
+    |> toString
+    |> Html.text

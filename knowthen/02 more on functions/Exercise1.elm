@@ -10,5 +10,5 @@ import String
 main =
   "Test" ~=
     "Try"
-    |> toString
-    |> Html.text
+      |> toString
+      |> Html.text
