@@ -1,9 +1,0 @@
-var _user$project$Main$wordCount = function (_p0) {
-	return _elm_lang$core$List$length(
-		_elm_lang$core$String$words(_p0));
-};
-var _user$project$Main$main = {
-	main: _elm_lang$html$Html$text(
-		_elm_lang$core$Basics$toString(
-			_user$project$Main$wordCount('Count the number of words in this sentence')))
-};
